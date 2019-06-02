@@ -1,0 +1,12 @@
+for(let buildingBlock = 1; buildingBlock <=100 ; buildingBlock++){
+  if (buildingBlock % 3 == 0 && buildingBlock % 5 ==0) {
+    console.log("FizzBuzz");
+  }
+  else if (buildingBlock % 3 == 0) {
+    console.log("Fizz");
+  }
+  else if (buildingBlock % 5 == 0) {
+    console.log("Buzz");
+  }
+  else console.log(buildingBlock)
+  }
