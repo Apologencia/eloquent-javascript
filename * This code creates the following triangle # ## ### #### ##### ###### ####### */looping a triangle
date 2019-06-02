@@ -1,0 +1,16 @@
+/* This code creates the following triangle
+#
+##
+###
+####
+#####
+######
+#######
+*/
+let buildingBlock = "#"; 
+let counter = 0;
+while (counter < 7) {
+  console.log(buildingBlock);
+  buildingBlock = buildingBlock + "#";
+  counter = counter + 1;
+}
