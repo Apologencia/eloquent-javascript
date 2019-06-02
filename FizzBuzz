@@ -1,3 +1,9 @@
+*/This program prints every number from 1 to 100. 
+For every number divisable by 3 it prints "Fizz".
+For every number divisable by 5 it prints "Buzz".
+For every number divisable by both it prints "FizzBuzz".
+*/
+
 for(let buildingBlock = 1; buildingBlock <=100 ; buildingBlock++){
   if (buildingBlock % 3 == 0 && buildingBlock % 5 ==0) {
     console.log("FizzBuzz");
@@ -10,3 +16,4 @@ for(let buildingBlock = 1; buildingBlock <=100 ; buildingBlock++){
   }
   else console.log(buildingBlock)
   }
+
