@@ -1,9 +1,0 @@
-let theNumber = Number(prompt("Pick a number"));
-while (Number.isNaN(theNumber)) { 
-  theNumber = Number(prompt("Pick a number; last time you did not pick a number."))
-}
-  console.log("Your number is the square root of " +
-              theNumber * theNumber);
-
-  
-
