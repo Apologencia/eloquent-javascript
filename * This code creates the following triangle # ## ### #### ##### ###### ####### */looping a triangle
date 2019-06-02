@@ -14,3 +14,7 @@ while (counter < 7) {
   buildingBlock = buildingBlock + "#";
   counter = counter + 1;
 }
+/* Alternatively you can shorten your code using .length  and a for loop */
+for(let buildingBlock = "#"; buildingBlock.length < 8 ; buildingBlock+= "#"){
+  console.log(buildingBlock)
+}
