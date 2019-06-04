@@ -17,3 +17,10 @@ for(let buildingBlock = 1; buildingBlock <=100 ; buildingBlock++){
   else console.log(buildingBlock)
   }
 
+*/ a more clever version is below */
+for(let buildingBlock=1; buildingBlock <=100; buildingBlock++) {
+  let output = "";
+  if (buildingBlock % 3 == 0) output += "Fizz";
+  if (buildingBlock % 5 == 0) output += "Buzz";
+  console.log(output || n);
+}
