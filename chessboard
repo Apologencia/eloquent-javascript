@@ -1,0 +1,27 @@
+//This program takes a size n and outputs a chess board with width and depth of n.
+
+var size = n;  
+for (let y = 1; y <= size; y++){
+  let baseBlock = "";
+  for (let x = 1; x <= size; x++){
+    if ((y + x) % 2 == 0){
+      baseBlock+= " ";
+    }
+    else baseBlock+= "#";
+  }
+  console.log(baseBlock || "\n");
+}
+
+// alternatively you can prompt for size with the following addition
+
+var size = prompt("Enter desired grid size");  
+for (let y = 1; y <= size; y++){
+  let baseBlock = "";
+  for (let x = 1; x <= size; x++){
+    if ((y + x) % 2 == 0){
+      baseBlock+= " ";
+    }
+    else baseBlock+= "#";
+  }
+  console.log(baseBlock || "\n");
+}
